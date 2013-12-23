@@ -1,8 +1,8 @@
 #TaggedAttributedString
 
-##A category on NSString for making quick attributed strings.
+###A category on NSString for making quick attributed strings.
 
-###Basics:
+####Basics:
 
  Opening Tags: <>
  
@@ -26,12 +26,12 @@
  myFont1, myColor1, myFont2, myFont3, myColor2, then those can be accessed by 
  font=@1, c=@1, font=@2, font=@3, color=@2 respectively. For example: [@"&lt;font=@1&gt;Hello World&lt;/font&gt;" attributedStringFromTaggedStringWithFontsAndColors:myFont]; 
  
-###Color Commands:
+####Color Commands:
 
  - c=, cf= - Foreground Text Color
  - cb= - Background Text Color
  
-###Font Color:
+####Font Color:
 
  - family= - Set the family name for a font. Use family= to set a font that can
     be bolded, italicized, or bold ital. Bold, italic, and bold italic are only
@@ -42,10 +42,10 @@
  - i - Italic (must have set a family).
  - s= - Size (float value).
  
-### Alignment:
+#### Alignment:
 
  - a= - Options: left, right, center, justified, natural.
  
-### Underline:
+#### Underline:
 
  - u - Underlines text
