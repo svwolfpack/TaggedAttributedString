@@ -8,16 +8,21 @@
 
 #import "TASParserManager.h"
 #import "TASUnderlineParser.h"
+#import "TASStrikethroughParser.h"
+#import "TASStrikethroughColorParser.h"
 #import "TASParagraphParser.h"
-#import "TASColorParser.h"
+#import "TASForegroundColorParser.h"
+#import "TASBackgroundColorParser.h"
 #import "TASFontParser.h"
 
 
 NSString *const kTASTextUnderlineKey = @"u";
+NSString *const kTASTextStrikethroughKey = @"t";
 
 NSString *const kTASForegroundColorKey1 = @"c";
 NSString *const kTASForegroundColorKey2 = @"cf";
 NSString *const kTASBackgroundColorKey = @"cb";
+NSString *const kTASStrikethroughColorKey = @"tc";
 
 NSString *const kTASParagraphAlignmentKey = @"a";
 
@@ -42,13 +47,15 @@ static TASParserManager *parserManager;
                                                                                                     kTASFontFaceKey : [TASFontParser parserClassName],
                                                                                                     kTASFontSizeKey : [TASFontParser parserClassName],
                                                                                                     kTASParagraphAlignmentKey : [TASParagraphParser parserClassName],
-                                                                                                    kTASForegroundColorKey1 : [TASColorParser parserClassName],
-                                                                                                    kTASForegroundColorKey2 : [TASColorParser parserClassName],
-                                                                                                    kTASBackgroundColorKey : [TASColorParser parserClassName]}];
+                                                                                                    kTASForegroundColorKey1 : [TASForegroundColorParser parserClassName],
+                                                                                                    kTASForegroundColorKey2 : [TASForegroundColorParser parserClassName],
+                                                                                                    kTASBackgroundColorKey : [TASBackgroundColorParser parserClassName],
+                                                                                                        kTASStrikethroughColorKey : [TASStrikethroughColorParser parserClassName]}];
             
             parserManager.openingTagParsersWithoutarguments = @{kTASFontBoldKey : [TASFontParser parserClassName],
                                                                   kTASFontItalicKey : [TASFontParser parserClassName],
-                                                                  kTASTextUnderlineKey : [TASUnderlineParser parserClassName]};
+                                                                  kTASTextUnderlineKey : [TASUnderlineParser parserClassName],
+                                                                kTASTextStrikethroughKey : [TASStrikethroughParser parserClassName]};
             
             parserManager.closingTagParsers = @{kTASFontBoldKey : [TASFontParser parserClassName],
                                                   kTASFontItalicKey : [TASFontParser parserClassName],
@@ -56,10 +63,12 @@ static TASParserManager *parserManager;
                                                   kTASFontFaceKey : [TASFontParser parserClassName],
                                                   kTASFontSizeKey : [TASFontParser parserClassName],
                                                   kTASParagraphAlignmentKey : [TASParagraphParser parserClassName],
-                                                  kTASBackgroundColorKey : [TASColorParser parserClassName],
-                                                  kTASForegroundColorKey1 : [TASColorParser parserClassName],
-                                                  kTASForegroundColorKey2 : [TASColorParser parserClassName],
-                                                  kTASTextUnderlineKey : [TASUnderlineParser parserClassName]};
+                                                  kTASBackgroundColorKey : [TASBackgroundColorParser parserClassName],
+                                                  kTASForegroundColorKey1 : [TASForegroundColorParser parserClassName],
+                                                  kTASForegroundColorKey2 : [TASForegroundColorParser parserClassName],
+                                                  kTASTextUnderlineKey : [TASUnderlineParser parserClassName],
+                                                  kTASTextStrikethroughKey : [TASStrikethroughParser parserClassName],
+                                                  kTASStrikethroughColorKey : [TASStrikethroughColorParser parserClassName]};
         }
     }
     return parserManager;

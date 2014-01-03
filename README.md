@@ -1,6 +1,6 @@
 #TaggedAttributedString
 
-###A category on NSString for making quick attributed strings.
+###A category on NSString for quickly generated attributed strings from HTML-style tags.
 
 ####Basics:
 
@@ -30,6 +30,8 @@
 
  - c=, cf= - Foreground Text Color
  - cb= - Background Text Color
+ - tc= - Strikethrough Color
+
  
 ####Font Color:
 
@@ -49,3 +51,8 @@
 #### Underline:
 
  - u - Underlines text
+ 
+#### Strikethrough:
+ 
+ - t - Strikethrough text. The line will be the same color as the current text
+    color, unless the strikethrough color has been specified (see above). 

@@ -7,13 +7,7 @@
 //
 
 #import "TASColorTag.h"
-#import "TASColorParser.h"
 
 @implementation TASColorTag
-
-- (NSString *)tagParsingClassName
-{
-    return NSStringFromClass([TASColorParser class]);
-}
 
 @end

@@ -26,8 +26,9 @@
  font=@1, c=@1, font=@2, font=@3, color=@2 respectively.
  
  Color Commands:
- c, cf - Foreground Text Color
- cb - Background Text Color
+ c=, cf= - Foreground Text Color
+ cb= - Background Text Color
+ tc= - Strikethrough Color
  
  Font Color:
  family= - Set the family name for a font. Use family= to set a font that can
@@ -44,6 +45,10 @@
  
  Underline:
  u - Underlines text
+ 
+ Strikethrough:
+ t - Strikethrough text. The line will be the same color as the current text
+    color, unless the strikethrough color has been specified (see above).
  
 */
 

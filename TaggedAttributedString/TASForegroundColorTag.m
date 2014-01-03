@@ -7,8 +7,14 @@
 //
 
 #import "TASForegroundColorTag.h"
+#import "TASForegroundColorParser.h"
 
 @implementation TASForegroundColorTag
+
+- (NSString *)tagParsingClassName
+{
+    return NSStringFromClass([TASForegroundColorParser class]);
+}
 
 - (TASAttribute *)attributeForTag
 {

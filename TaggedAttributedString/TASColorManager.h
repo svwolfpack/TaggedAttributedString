@@ -7,14 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TASParseResult.h"
+#import "TASColorTag.h"
 
 @interface TASColorManager : NSObject
 
 + (TASColorManager *)manager;
 - (void)reset;
 - (void)addColor:(UIColor *)color;
-- (UIColor *)colorForIndex:(NSInteger)index;
 
-@property (nonatomic, strong) NSMutableArray *colors;
+- (TASParseResult *)parseResultForArgument:(NSString *)argument tag:(TASColorTag *)tag openTag:(TASTag *)openTag;
+
 
 @end

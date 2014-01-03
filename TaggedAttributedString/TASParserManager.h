@@ -9,10 +9,12 @@
 #import <Foundation/Foundation.h>
 
 extern NSString *const kTASTextUnderlineKey;
+extern NSString *const kTASTextStrikethroughKey;
 
 extern NSString *const kTASForegroundColorKey1;
 extern NSString *const kTASForegroundColorKey2;
 extern NSString *const kTASBackgroundColorKey;
+extern NSString *const kTASStrikethroughColorKey;
 
 extern NSString *const kTASParagraphAlignmentKey;
 

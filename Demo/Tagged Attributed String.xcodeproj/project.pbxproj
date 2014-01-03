@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221086C5187765AE00E0664D /* TASForegroundColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 221086C4187765AE00E0664D /* TASForegroundColorParser.m */; };
+		221086C81877660A00E0664D /* TASBackgroundColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 221086C71877660A00E0664D /* TASBackgroundColorParser.m */; };
+		221086CB1877684500E0664D /* TASStrikethroughTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 221086CA1877684500E0664D /* TASStrikethroughTag.m */; };
+		221086CE1877688000E0664D /* TASStrikethroughParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 221086CD1877688000E0664D /* TASStrikethroughParser.m */; };
+		221086D118776C1A00E0664D /* TASStrikethroughColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 221086D018776C1A00E0664D /* TASStrikethroughColorParser.m */; };
+		221086D418776C3200E0664D /* TASStrikethroughColorTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 221086D318776C3200E0664D /* TASStrikethroughColorTag.m */; };
 		221CA6F01868DD7100ECA05F /* NSString+TaggedAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 221CA6CB1868DD7100ECA05F /* NSString+TaggedAttributedString.m */; };
 		221CA6F11868DD7100ECA05F /* TASAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 221CA6CD1868DD7100ECA05F /* TASAttribute.m */; };
 		221CA6F21868DD7100ECA05F /* TASBackgroundColorTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 221CA6CF1868DD7100ECA05F /* TASBackgroundColorTag.m */; };
 		221CA6F31868DD7100ECA05F /* TASColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 221CA6D11868DD7100ECA05F /* TASColorManager.m */; };
-		221CA6F41868DD7100ECA05F /* TASColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 221CA6D31868DD7100ECA05F /* TASColorParser.m */; };
 		221CA6F51868DD7100ECA05F /* TASColorTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 221CA6D51868DD7100ECA05F /* TASColorTag.m */; };
 		221CA6F61868DD7100ECA05F /* TASFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 221CA6D71868DD7100ECA05F /* TASFontManager.m */; };
 		221CA6F71868DD7100ECA05F /* TASFontParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 221CA6D91868DD7100ECA05F /* TASFontParser.m */; };
@@ -51,6 +56,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		221086C3187765AE00E0664D /* TASForegroundColorParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TASForegroundColorParser.h; path = ../TaggedAttributedString/TASForegroundColorParser.h; sourceTree = "<group>"; };
+		221086C4187765AE00E0664D /* TASForegroundColorParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TASForegroundColorParser.m; path = ../TaggedAttributedString/TASForegroundColorParser.m; sourceTree = "<group>"; };
+		221086C61877660A00E0664D /* TASBackgroundColorParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TASBackgroundColorParser.h; path = ../TaggedAttributedString/TASBackgroundColorParser.h; sourceTree = "<group>"; };
+		221086C71877660A00E0664D /* TASBackgroundColorParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TASBackgroundColorParser.m; path = ../TaggedAttributedString/TASBackgroundColorParser.m; sourceTree = "<group>"; };
+		221086C91877684500E0664D /* TASStrikethroughTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TASStrikethroughTag.h; path = ../TaggedAttributedString/TASStrikethroughTag.h; sourceTree = "<group>"; };
+		221086CA1877684500E0664D /* TASStrikethroughTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TASStrikethroughTag.m; path = ../TaggedAttributedString/TASStrikethroughTag.m; sourceTree = "<group>"; };
+		221086CC1877688000E0664D /* TASStrikethroughParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TASStrikethroughParser.h; path = ../TaggedAttributedString/TASStrikethroughParser.h; sourceTree = "<group>"; };
+		221086CD1877688000E0664D /* TASStrikethroughParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TASStrikethroughParser.m; path = ../TaggedAttributedString/TASStrikethroughParser.m; sourceTree = "<group>"; };
+		221086CF18776C1A00E0664D /* TASStrikethroughColorParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TASStrikethroughColorParser.h; path = ../TaggedAttributedString/TASStrikethroughColorParser.h; sourceTree = "<group>"; };
+		221086D018776C1A00E0664D /* TASStrikethroughColorParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TASStrikethroughColorParser.m; path = ../TaggedAttributedString/TASStrikethroughColorParser.m; sourceTree = "<group>"; };
+		221086D218776C3200E0664D /* TASStrikethroughColorTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TASStrikethroughColorTag.h; path = ../TaggedAttributedString/TASStrikethroughColorTag.h; sourceTree = "<group>"; };
+		221086D318776C3200E0664D /* TASStrikethroughColorTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TASStrikethroughColorTag.m; path = ../TaggedAttributedString/TASStrikethroughColorTag.m; sourceTree = "<group>"; };
 		221CA6CA1868DD7100ECA05F /* NSString+TaggedAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+TaggedAttributedString.h"; path = "../TaggedAttributedString/NSString+TaggedAttributedString.h"; sourceTree = "<group>"; };
 		221CA6CB1868DD7100ECA05F /* NSString+TaggedAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+TaggedAttributedString.m"; path = "../TaggedAttributedString/NSString+TaggedAttributedString.m"; sourceTree = "<group>"; };
 		221CA6CC1868DD7100ECA05F /* TASAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TASAttribute.h; path = ../TaggedAttributedString/TASAttribute.h; sourceTree = "<group>"; };
@@ -59,8 +76,6 @@
 		221CA6CF1868DD7100ECA05F /* TASBackgroundColorTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TASBackgroundColorTag.m; path = ../TaggedAttributedString/TASBackgroundColorTag.m; sourceTree = "<group>"; };
 		221CA6D01868DD7100ECA05F /* TASColorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TASColorManager.h; path = ../TaggedAttributedString/TASColorManager.h; sourceTree = "<group>"; };
 		221CA6D11868DD7100ECA05F /* TASColorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TASColorManager.m; path = ../TaggedAttributedString/TASColorManager.m; sourceTree = "<group>"; };
-		221CA6D21868DD7100ECA05F /* TASColorParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TASColorParser.h; path = ../TaggedAttributedString/TASColorParser.h; sourceTree = "<group>"; };
-		221CA6D31868DD7100ECA05F /* TASColorParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TASColorParser.m; path = ../TaggedAttributedString/TASColorParser.m; sourceTree = "<group>"; };
 		221CA6D41868DD7100ECA05F /* TASColorTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TASColorTag.h; path = ../TaggedAttributedString/TASColorTag.h; sourceTree = "<group>"; };
 		221CA6D51868DD7100ECA05F /* TASColorTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TASColorTag.m; path = ../TaggedAttributedString/TASColorTag.m; sourceTree = "<group>"; };
 		221CA6D61868DD7100ECA05F /* TASFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TASFontManager.h; path = ../TaggedAttributedString/TASFontManager.h; sourceTree = "<group>"; };
@@ -136,42 +151,52 @@
 			children = (
 				221CA6CA1868DD7100ECA05F /* NSString+TaggedAttributedString.h */,
 				221CA6CB1868DD7100ECA05F /* NSString+TaggedAttributedString.m */,
+				221CA6E81868DD7100ECA05F /* TASStringToAttributedStringParser.h */,
+				221CA6E91868DD7100ECA05F /* TASStringToAttributedStringParser.m */,
+				221CA6E61868DD7100ECA05F /* TASParserManager.h */,
+				221CA6E71868DD7100ECA05F /* TASParserManager.m */,
 				221CA6CC1868DD7100ECA05F /* TASAttribute.h */,
 				221CA6CD1868DD7100ECA05F /* TASAttribute.m */,
+				221CA6EA1868DD7100ECA05F /* TASTag.h */,
+				221CA6EB1868DD7100ECA05F /* TASTag.m */,
+				221CA6E21868DD7100ECA05F /* TASParser.h */,
+				221CA6E31868DD7100ECA05F /* TASParser.m */,
+				221CA6E41868DD7100ECA05F /* TASParseResult.h */,
+				221CA6E51868DD7100ECA05F /* TASParseResult.m */,
 				221CA6CE1868DD7100ECA05F /* TASBackgroundColorTag.h */,
 				221CA6CF1868DD7100ECA05F /* TASBackgroundColorTag.m */,
-				221CA6D01868DD7100ECA05F /* TASColorManager.h */,
-				221CA6D11868DD7100ECA05F /* TASColorManager.m */,
-				221CA6D21868DD7100ECA05F /* TASColorParser.h */,
-				221CA6D31868DD7100ECA05F /* TASColorParser.m */,
+				221CA6DC1868DD7100ECA05F /* TASForegroundColorTag.h */,
+				221CA6DD1868DD7100ECA05F /* TASForegroundColorTag.m */,
 				221CA6D41868DD7100ECA05F /* TASColorTag.h */,
 				221CA6D51868DD7100ECA05F /* TASColorTag.m */,
+				221CA6D01868DD7100ECA05F /* TASColorManager.h */,
+				221CA6D11868DD7100ECA05F /* TASColorManager.m */,
+				221086C3187765AE00E0664D /* TASForegroundColorParser.h */,
+				221086C4187765AE00E0664D /* TASForegroundColorParser.m */,
+				221086C61877660A00E0664D /* TASBackgroundColorParser.h */,
+				221086C71877660A00E0664D /* TASBackgroundColorParser.m */,
 				221CA6D61868DD7100ECA05F /* TASFontManager.h */,
 				221CA6D71868DD7100ECA05F /* TASFontManager.m */,
 				221CA6D81868DD7100ECA05F /* TASFontParser.h */,
 				221CA6D91868DD7100ECA05F /* TASFontParser.m */,
 				221CA6DA1868DD7100ECA05F /* TASFontTag.h */,
 				221CA6DB1868DD7100ECA05F /* TASFontTag.m */,
-				221CA6DC1868DD7100ECA05F /* TASForegroundColorTag.h */,
-				221CA6DD1868DD7100ECA05F /* TASForegroundColorTag.m */,
 				221CA6DE1868DD7100ECA05F /* TASParagraphParser.h */,
 				221CA6DF1868DD7100ECA05F /* TASParagraphParser.m */,
 				221CA6E01868DD7100ECA05F /* TASParagraphTag.h */,
 				221CA6E11868DD7100ECA05F /* TASParagraphTag.m */,
-				221CA6E21868DD7100ECA05F /* TASParser.h */,
-				221CA6E31868DD7100ECA05F /* TASParser.m */,
-				221CA6E41868DD7100ECA05F /* TASParseResult.h */,
-				221CA6E51868DD7100ECA05F /* TASParseResult.m */,
-				221CA6E61868DD7100ECA05F /* TASParserManager.h */,
-				221CA6E71868DD7100ECA05F /* TASParserManager.m */,
-				221CA6E81868DD7100ECA05F /* TASStringToAttributedStringParser.h */,
-				221CA6E91868DD7100ECA05F /* TASStringToAttributedStringParser.m */,
-				221CA6EA1868DD7100ECA05F /* TASTag.h */,
-				221CA6EB1868DD7100ECA05F /* TASTag.m */,
 				221CA6EC1868DD7100ECA05F /* TASUnderlineParser.h */,
 				221CA6ED1868DD7100ECA05F /* TASUnderlineParser.m */,
 				221CA6EE1868DD7100ECA05F /* TASUnderlineTag.h */,
 				221CA6EF1868DD7100ECA05F /* TASUnderlineTag.m */,
+				221086CC1877688000E0664D /* TASStrikethroughParser.h */,
+				221086CD1877688000E0664D /* TASStrikethroughParser.m */,
+				221086C91877684500E0664D /* TASStrikethroughTag.h */,
+				221086CA1877684500E0664D /* TASStrikethroughTag.m */,
+				221086CF18776C1A00E0664D /* TASStrikethroughColorParser.h */,
+				221086D018776C1A00E0664D /* TASStrikethroughColorParser.m */,
+				221086D218776C3200E0664D /* TASStrikethroughColorTag.h */,
+				221086D318776C3200E0664D /* TASStrikethroughColorTag.m */,
 			);
 			name = TaggedAttributedString;
 			sourceTree = "<group>";
@@ -340,6 +365,7 @@
 				221CA6F11868DD7100ECA05F /* TASAttribute.m in Sources */,
 				221CA6F21868DD7100ECA05F /* TASBackgroundColorTag.m in Sources */,
 				221CA6F71868DD7100ECA05F /* TASFontParser.m in Sources */,
+				221086D118776C1A00E0664D /* TASStrikethroughColorParser.m in Sources */,
 				221CA6FE1868DD7100ECA05F /* TASParserManager.m in Sources */,
 				221CA6FD1868DD7100ECA05F /* TASParseResult.m in Sources */,
 				221CA6F91868DD7100ECA05F /* TASForegroundColorTag.m in Sources */,
@@ -349,16 +375,20 @@
 				225B742A180EFEBD00D99A97 /* main.m in Sources */,
 				221CA6FB1868DD7100ECA05F /* TASParagraphTag.m in Sources */,
 				225B742E180EFEBD00D99A97 /* TASAppDelegate.m in Sources */,
+				221086CE1877688000E0664D /* TASStrikethroughParser.m in Sources */,
 				221CA7021868DD7100ECA05F /* TASUnderlineTag.m in Sources */,
 				221CA6F61868DD7100ECA05F /* TASFontManager.m in Sources */,
 				221CA6F01868DD7100ECA05F /* NSString+TaggedAttributedString.m in Sources */,
 				225B7434180EFEBD00D99A97 /* TASViewController.m in Sources */,
 				221CA6FC1868DD7100ECA05F /* TASParser.m in Sources */,
+				221086C81877660A00E0664D /* TASBackgroundColorParser.m in Sources */,
 				221CA6F51868DD7100ECA05F /* TASColorTag.m in Sources */,
 				221CA7011868DD7100ECA05F /* TASUnderlineParser.m in Sources */,
 				221CA6F81868DD7100ECA05F /* TASFontTag.m in Sources */,
+				221086C5187765AE00E0664D /* TASForegroundColorParser.m in Sources */,
 				221CA6FA1868DD7100ECA05F /* TASParagraphParser.m in Sources */,
-				221CA6F41868DD7100ECA05F /* TASColorParser.m in Sources */,
+				221086D418776C3200E0664D /* TASStrikethroughColorTag.m in Sources */,
+				221086CB1877684500E0664D /* TASStrikethroughTag.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
