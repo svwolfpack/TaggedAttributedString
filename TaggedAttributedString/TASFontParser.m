@@ -135,7 +135,7 @@
     }
     else
     {
-        [TASFontParser familyParseResultWithWithOpenTag:(TASFontTag *)openTag];
+        parseResult = [TASFontParser familyParseResultWithWithOpenTag:(TASFontTag *)openTag];
         [(TASFontTag *)parseResult.tag setSize:fontSize];
     }
     return  parseResult;
