@@ -14,7 +14,7 @@
 - (TASAttribute *)attributeForTag
 {
     return [TASAttribute TASAttributeWithKey:NSUnderlineStyleAttributeName
-                                       value:[NSNumber numberWithInt:NSUnderlineStyleSingle]
+                                       value:@(NSUnderlineStyleSingle)
                                        range:[self rangeForTag]];
 }
 
